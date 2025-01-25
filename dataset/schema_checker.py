@@ -2,8 +2,10 @@ import json
 import jsonschema
 from jsonschema import validate
 from utils import list_directories
+import os
 
 def validate_and_print_schema(schema_file):
+    print(f"Validating schema in {schema_file}")
     # Load the schema
     with open(schema_file, 'r') as file:
         schema = json.load(file)
@@ -21,6 +23,7 @@ def validate_and_print_schema(schema_file):
     for field in schema.get('properties', {}).keys():
         print(f"- {field}")
 
-# Example usage
+
 direcories = list_directories('.')
-validate_and_print_schema('users/schema.json')
+for dir in direcories:
+    validate_and_print_schema(os.path.join(dir, 'schema.json'))
