@@ -1,0 +1,76 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "PostInterviewNotes",
+    "type": "object",
+    "properties": {
+        "details": {
+            "type": "object",
+            "properties": {
+                "date": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "The date of the interview"
+                },
+                "company": {
+                    "type": "string",
+                    "description": "The company where the interview took place"
+                },
+                "time": {
+                    "type": "string",
+                    "description": "The time of the interview"
+                },
+                "interviewers": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "description": "Names of the interviewers"
+                    }
+                }
+            },
+            "required": [
+                "date",
+                "company",
+                "time",
+                "interviewers"
+            ]
+        },
+        "questionsAnswers": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "question": {
+                        "type": "string",
+                        "description": "The question asked during the interview"
+                    },
+                    "answer": {
+                        "type": "string",
+                        "description": "The answer provided by the interviewee"
+                    },
+                    "comments": {
+                        "type": "string",
+                        "description": "Comments about the question/answer pair"
+                    }
+                },
+                "required": [
+                    "question",
+                    "answer"
+                ]
+            }
+        },
+        "selfAssessment": {
+            "type": "string",
+            "description": "The interviewee's self-assessment of their performance"
+        },
+        "coachAssessment": {
+            "type": "string",
+            "description": "The coach's assessment of the interviewee's performance"
+        }
+    },
+    "required": [
+        "details",
+        "questionsAnswers",
+        "selfAssessment",
+        "coachAssessment"
+    ]
+}

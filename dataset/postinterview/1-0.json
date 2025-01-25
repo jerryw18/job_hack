@@ -1,0 +1,30 @@
+{
+    "details": {
+        "date": "2023-10-20",
+        "company": "Ocean Conservation Alliance",
+        "time": "11:00 AM",
+        "interviewers": [
+            "Emily Green",
+            "Michael Blue"
+        ]
+    },
+    "questionsAnswers": [
+        {
+            "question": "Can you describe a significant research project you led?",
+            "answer": "I led a project on coral reef restoration, where we developed new techniques to enhance coral growth and resilience. The project involved extensive fieldwork and collaboration with local communities.",
+            "comments": "Felt confident answering this question as it highlighted my leadership and research skills."
+        },
+        {
+            "question": "How do you handle data analysis for large datasets?",
+            "answer": "I use statistical software and programming languages like R and Python to analyze large datasets. I also ensure data quality and integrity through rigorous validation processes.",
+            "comments": "The interviewer seemed satisfied with my technical expertise."
+        },
+        {
+            "question": "What motivates you to work in marine conservation?",
+            "answer": "My passion for the ocean and its ecosystems drives me to work in marine conservation. I am committed to making a positive impact and preserving marine biodiversity for future generations.",
+            "comments": "I felt passionate and genuine while answering this question."
+        }
+    ],
+    "selfAssessment": "I believe the interview went well. I was able to articulate my experience and passion for marine conservation effectively.",
+    "coachAssessment": "John demonstrated strong leadership and technical skills. His passion for marine conservation was evident. He should continue to provide specific examples to support his answers."
+}

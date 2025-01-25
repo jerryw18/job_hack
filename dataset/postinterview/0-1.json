@@ -1,0 +1,30 @@
+{
+    "details": {
+        "date": "2023-11-01",
+        "company": "Innovative Solutions Ltd.",
+        "time": "2:00 PM",
+        "interviewers": [
+            "Charlie Brown",
+            "Dana White"
+        ]
+    },
+    "questionsAnswers": [
+        {
+            "question": "How do you stay updated with the latest technology trends?",
+            "answer": "I regularly read tech blogs, attend webinars, and participate in online courses to stay updated with the latest trends.",
+            "comments": "Felt confident answering this question as I actively engage in continuous learning."
+        },
+        {
+            "question": "Can you explain a time when you had to debug a complex issue?",
+            "answer": "I once had to debug a performance issue in our application. I used profiling tools to identify bottlenecks and optimized the code, which improved performance by 30%.",
+            "comments": "The interviewer seemed impressed with my systematic approach to debugging."
+        },
+        {
+            "question": "How do you handle conflicts within your team?",
+            "answer": "I believe in open communication and addressing conflicts directly. I try to understand each team member's perspective and work towards a mutually agreeable solution.",
+            "comments": "I felt comfortable answering this question as I have experience in team management."
+        }
+    ],
+    "selfAssessment": "I think this interview went well. I was able to provide detailed answers and felt more relaxed compared to my previous interview.",
+    "coachAssessment": "Jane showed improvement in her confidence and communication skills. She provided strong examples and demonstrated her commitment to continuous learning. She should continue to work on providing concise answers."
+}

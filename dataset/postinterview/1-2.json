@@ -1,0 +1,30 @@
+{
+    "details": {
+        "date": "2023-11-20",
+        "company": "Global Marine Conservation",
+        "time": "9:00 AM",
+        "interviewers": [
+            "Laura Blue",
+            "David Green"
+        ]
+    },
+    "questionsAnswers": [
+        {
+            "question": "Can you describe a time when you had to overcome a significant challenge in your research?",
+            "answer": "During a field study on coral bleaching, we faced unexpected severe weather conditions that disrupted our data collection. I had to quickly adapt our methodology and coordinate with local teams to ensure the safety of our equipment and personnel while still gathering valuable data.",
+            "comments": "Felt confident discussing this as it highlighted my problem-solving skills and adaptability."
+        },
+        {
+            "question": "How do you ensure the accuracy and reliability of your research data?",
+            "answer": "I implement rigorous data validation processes, use reliable data collection tools, and cross-verify results with multiple sources. Additionally, I collaborate with other experts to review and validate the findings.",
+            "comments": "The interviewer seemed satisfied with my thorough approach to data accuracy."
+        },
+        {
+            "question": "What strategies do you use to communicate complex scientific concepts to non-experts?",
+            "answer": "I use visual aids, simplify technical jargon, and relate scientific concepts to everyday experiences. I also ensure to engage the audience by encouraging questions and discussions.",
+            "comments": "I felt comfortable answering this question as I have experience in public speaking and education."
+        }
+    ],
+    "selfAssessment": "I believe this interview went well. I was able to articulate my experiences and strategies effectively.",
+    "coachAssessment": "John demonstrated strong problem-solving skills and the ability to communicate complex concepts clearly. He provided specific examples and showed adaptability. He should continue to work on engaging the audience more during explanations."
+}
