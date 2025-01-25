@@ -1,2 +1,49 @@
-**venv
-**__pycache__
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment files
+.env
+*.env
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Streamlit-specific files
+.streamlit/
+.config/
+.cache/
+
+# macOS files
+.DS_Store
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Pytest cache
+.pytest_cache/
+
+# Others
+*.sqlite3
+*.db
+*.bak
+
