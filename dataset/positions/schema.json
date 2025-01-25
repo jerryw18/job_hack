@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "DesiredPosition",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string",
+            "description": "The title of the desired position"
+        },
+        "description": {
+            "type": "string",
+            "description": "A description of the desired position"
+        },
+        "seniority": {
+            "type": "string",
+            "description": "The seniority level of the desired position (e.g., Junior, Mid, Senior)"
+        },
+        "idealCompany": {
+            "type": "string",
+            "description": "The name or profile of the ideal company"
+        },
+        "idealSalary": {
+            "type": "string",
+            "description": "The ideal salary for the desired position (can be a number or a range)"
+        },
+        "reasons": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "description": "Reasons for wanting this job"
+            }
+        },
+        "location": {
+            "type": "string",
+            "description": "Preferred location for the job"
+        },
+        "remote": {
+            "type": "boolean",
+            "description": "Whether the user prefers a remote position"
+        },
+        "industry": {
+            "type": "string",
+            "description": "The industry of the desired position"
+        }
+    },
+    "required": [
+        "title",
+        "description",
+        "seniority",
+        "idealCompany",
+        "idealSalary",
+        "reasons"
+    ]
+}

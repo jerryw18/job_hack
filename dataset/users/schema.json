@@ -1,0 +1,122 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "UserProfile",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The user's full name"
+        },
+        "contact": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string",
+                    "format": "email",
+                    "description": "The user's email address"
+                },
+                "phone": {
+                    "type": "string",
+                    "description": "The user's phone number"
+                }
+            },
+            "required": [
+                "email"
+            ]
+        },
+        "education": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "institution": {
+                        "type": "string",
+                        "description": "Name of the educational institution"
+                    },
+                    "degree": {
+                        "type": "string",
+                        "description": "Degree obtained"
+                    },
+                    "fieldOfStudy": {
+                        "type": "string",
+                        "description": "Field of study"
+                    },
+                    "startDate": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "Start date of the education"
+                    },
+                    "endDate": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "End date of the education"
+                    }
+                },
+                "required": [
+                    "institution",
+                    "degree",
+                    "fieldOfStudy",
+                    "startDate"
+                ]
+            }
+        },
+        "experiences": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "company": {
+                        "type": "string",
+                        "description": "Name of the company"
+                    },
+                    "position": {
+                        "type": "string",
+                        "description": "Position held"
+                    },
+                    "startDate": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "Start date of the experience"
+                    },
+                    "endDate": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "End date of the experience"
+                    },
+                    "responsibilities": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "description": "Responsibilities held during the position"
+                        }
+                    }
+                },
+                "required": [
+                    "company",
+                    "position",
+                    "startDate"
+                ]
+            }
+        },
+        "interests": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "description": "User's interests"
+            }
+        },
+        "skills": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "description": "User's skills"
+            }
+        }
+    },
+    "required": [
+        "name",
+        "contact",
+        "education",
+        "experiences"
+    ]
+}
