@@ -1,0 +1,15 @@
+{
+    "title": "Senior Software Engineer",
+    "description": "Responsible for designing, developing, and maintaining software applications. Collaborate with cross-functional teams to deliver high-quality products.",
+    "seniority": "Senior",
+    "idealCompany": "Tech Innovators Inc.",
+    "idealSalary": "$120,000 - $150,000",
+    "reasons": [
+        "Looking for career growth opportunities",
+        "Interested in working on innovative projects",
+        "Desire to mentor junior developers"
+    ],
+    "location": "San Francisco, CA",
+    "remote": true,
+    "industry": "Technology"
+}
