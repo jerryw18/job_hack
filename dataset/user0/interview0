@@ -1,0 +1,30 @@
+{
+    "details": {
+        "date": "2023-10-15",
+        "company": "Tech Innovators Inc.",
+        "time": "10:00 AM",
+        "interviewers": [
+            "Alice Johnson",
+            "Bob Smith"
+        ]
+    },
+    "questionsAnswers": [
+        {
+            "question": "Can you describe a challenging project you worked on?",
+            "answer": "I worked on a project to migrate our legacy system to a microservices architecture. It involved coordinating with multiple teams and ensuring minimal downtime.",
+            "comments": "Felt confident answering this question as it highlighted my problem-solving skills."
+        },
+        {
+            "question": "How do you handle tight deadlines?",
+            "answer": "I prioritize tasks, communicate effectively with my team, and ensure that we have a clear plan to meet the deadlines.",
+            "comments": "The interviewer seemed satisfied with my response."
+        },
+        {
+            "question": "What are your strengths and weaknesses?",
+            "answer": "My strengths are my problem-solving skills and ability to work under pressure. My weakness is that I sometimes take on too much responsibility.",
+            "comments": "I felt a bit nervous answering this question but managed to provide a balanced response."
+        }
+    ],
+    "selfAssessment": "Overall, I think the interview went well. I was able to answer most of the questions confidently and provided relevant examples from my experience.",
+    "coachAssessment": "Jane demonstrated strong problem-solving skills and the ability to handle pressure. She provided clear and concise answers. However, she could work on being more concise when discussing her weaknesses."
+}
